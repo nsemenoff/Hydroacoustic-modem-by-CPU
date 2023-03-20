@@ -1,0 +1,2520 @@
+Determining if the __INTEL_COMPILER exist failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b8423/fast && /usr/bin/make  -f CMakeFiles/cmTC_b8423.dir/build.make CMakeFiles/cmTC_b8423.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_b8423.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b8423.dir/CheckSymbolExists.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: ошибка: «__INTEL_COMPILER» не описан (первое использование в этой функции)
+    8 |   return ((int*)(&__INTEL_COMPILER))[argc];
+      |                   ^~~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: замечание: сообщение о каждом неописанном идентификаторе выдается один раз в каждой функции, где он встречается
+make[1]: *** [CMakeFiles/cmTC_b8423.dir/build.make:78: CMakeFiles/cmTC_b8423.dir/CheckSymbolExists.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_b8423/fast] Ошибка 2
+
+
+File /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __INTEL_COMPILER
+  return ((int*)(&__INTEL_COMPILER))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __SUNPRO_C exist failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bca8a/fast && /usr/bin/make  -f CMakeFiles/cmTC_bca8a.dir/build.make CMakeFiles/cmTC_bca8a.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_bca8a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bca8a.dir/CheckSymbolExists.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: ошибка: «__SUNPRO_C» не описан (первое использование в этой функции)
+    8 |   return ((int*)(&__SUNPRO_C))[argc];
+      |                   ^~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: замечание: сообщение о каждом неописанном идентификаторе выдается один раз в каждой функции, где он встречается
+make[1]: *** [CMakeFiles/cmTC_bca8a.dir/build.make:78: CMakeFiles/cmTC_bca8a.dir/CheckSymbolExists.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_bca8a/fast] Ошибка 2
+
+
+File /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __SUNPRO_C
+  return ((int*)(&__SUNPRO_C))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __clang__ exist failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5e7c0/fast && /usr/bin/make  -f CMakeFiles/cmTC_5e7c0.dir/build.make CMakeFiles/cmTC_5e7c0.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_5e7c0.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5e7c0.dir/CheckSymbolExists.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: ошибка: «__clang__» не описан (первое использование в этой функции)
+    8 |   return ((int*)(&__clang__))[argc];
+      |                   ^~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: замечание: сообщение о каждом неописанном идентификаторе выдается один раз в каждой функции, где он встречается
+make[1]: *** [CMakeFiles/cmTC_5e7c0.dir/build.make:78: CMakeFiles/cmTC_5e7c0.dir/CheckSymbolExists.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_5e7c0/fast] Ошибка 2
+
+
+File /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __clang__
+  return ((int*)(&__clang__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test __ARCH64__ failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e3e89/fast && /usr/bin/make  -f CMakeFiles/cmTC_e3e89.dir/build.make CMakeFiles/cmTC_e3e89.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_e3e89.dir/src.c.o
+/usr/bin/cc -D__ARCH64__  -fPIC  -o CMakeFiles/cmTC_e3e89.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:2: ошибка: #error not defined
+    3 | #error not defined
+      |  ^~~~~
+make[1]: *** [CMakeFiles/cmTC_e3e89.dir/build.make:78: CMakeFiles/cmTC_e3e89.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_e3e89/fast] Ошибка 2
+
+
+Source file was:
+#if defined(__arch64__)
+#else
+#error not defined
+#endif
+int main(void) {return 0; }
+
+Performing C SOURCE FILE Test JANUS_CPU_MIXED_ENDIAN_DOUBLES failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_84925/fast && /usr/bin/make  -f CMakeFiles/cmTC_84925.dir/build.make CMakeFiles/cmTC_84925.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_84925.dir/src.c.o
+/usr/bin/cc -DJANUS_CPU_MIXED_ENDIAN_DOUBLES  -fPIC  -o CMakeFiles/cmTC_84925.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:4: ошибка: #error not ARM architecture
+    3 | #  error not ARM architecture
+      |    ^~~~~
+make[1]: *** [CMakeFiles/cmTC_84925.dir/build.make:78: CMakeFiles/cmTC_84925.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_84925/fast] Ошибка 2
+
+
+Source file was:
+
+#if !defined(__arm__)
+#  error not ARM architecture
+#endif
+
+#if defined(__VFP_FP__)
+#  error normal doubles.
+#endif
+
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test OS_LINUX24 failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6df0a/fast && /usr/bin/make  -f CMakeFiles/cmTC_6df0a.dir/build.make CMakeFiles/cmTC_6df0a.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_6df0a.dir/src.c.o
+/usr/bin/cc -DOS_LINUX24  -fPIC  -o CMakeFiles/cmTC_6df0a.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:4: ошибка: #error Linux 2.5 or superior
+    4 | #  error Linux 2.5 or superior
+      |    ^~~~~
+make[1]: *** [CMakeFiles/cmTC_6df0a.dir/build.make:78: CMakeFiles/cmTC_6df0a.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_6df0a/fast] Ошибка 2
+
+
+Source file was:
+
+#include <linux/version.h>
+#if LINUX_VERSION_CODE >= KERNEL_VERSION(2, 5, 0)
+#  error Linux 2.5 or superior
+#endif
+
+Performing C SOURCE FILE Test LLVM_LIBC failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4af60/fast && /usr/bin/make  -f CMakeFiles/cmTC_4af60.dir/build.make CMakeFiles/cmTC_4af60.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_4af60.dir/src.c.o
+/usr/bin/cc -DLLVM_LIBC  -fPIC  -o CMakeFiles/cmTC_4af60.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:1:10: фатальная ошибка: cstddef: Нет такого файла или каталога
+    1 | #include <cstddef>
+      |          ^~~~~~~~~
+компиляция прервана.
+make[1]: *** [CMakeFiles/cmTC_4af60.dir/build.make:78: CMakeFiles/cmTC_4af60.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_4af60/fast] Ошибка 2
+
+
+Source file was:
+#include <cstddef>
+ int main(void) { return _LIBCPP_VERSION; }
+Determining if the __UCLIBC__ exist failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_baca8/fast && /usr/bin/make  -f CMakeFiles/cmTC_baca8.dir/build.make CMakeFiles/cmTC_baca8.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_baca8.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC  -o CMakeFiles/cmTC_baca8.dir/CheckSymbolExists.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: ошибка: «__UCLIBC__» не описан (первое использование в этой функции); имелось в виду «__LINE__»?
+    8 |   return ((int*)(&__UCLIBC__))[argc];
+      |                   ^~~~~~~~~~
+      |                   __LINE__
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: замечание: сообщение о каждом неописанном идентификаторе выдается один раз в каждой функции, где он встречается
+make[1]: *** [CMakeFiles/cmTC_baca8.dir/build.make:78: CMakeFiles/cmTC_baca8.dir/CheckSymbolExists.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_baca8/fast] Ошибка 2
+
+
+File /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __UCLIBC__
+  return ((int*)(&__UCLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function getch exists in the ws2_32 failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7e4f4/fast && /usr/bin/make  -f CMakeFiles/cmTC_7e4f4.dir/build.make CMakeFiles/cmTC_7e4f4.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_7e4f4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=getch -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_7e4f4.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7e4f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e4f4.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=getch -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -rdynamic CMakeFiles/cmTC_7e4f4.dir/CheckFunctionExists.c.o -o cmTC_7e4f4  -lws2_32 -lrt 
+/usr/bin/ld: невозможно найти -lws2_32
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+make[1]: *** [CMakeFiles/cmTC_7e4f4.dir/build.make:99: cmTC_7e4f4] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_7e4f4/fast] Ошибка 2
+
+
+
+Determining if the function getch exists in the wsock32 failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0fe6f/fast && /usr/bin/make  -f CMakeFiles/cmTC_0fe6f.dir/build.make CMakeFiles/cmTC_0fe6f.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_0fe6f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=getch -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_0fe6f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0fe6f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fe6f.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=getch -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -rdynamic CMakeFiles/cmTC_0fe6f.dir/CheckFunctionExists.c.o -o cmTC_0fe6f  -lwsock32 -lrt 
+/usr/bin/ld: невозможно найти -lwsock32
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+make[1]: *** [CMakeFiles/cmTC_0fe6f.dir/build.make:99: cmTC_0fe6f] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_0fe6f/fast] Ошибка 2
+
+
+
+Determining if the function getch exists in the iphlpapi failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1196a/fast && /usr/bin/make  -f CMakeFiles/cmTC_1196a.dir/build.make CMakeFiles/cmTC_1196a.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_1196a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=getch -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_1196a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1196a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1196a.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=getch -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -rdynamic CMakeFiles/cmTC_1196a.dir/CheckFunctionExists.c.o -o cmTC_1196a  -liphlpapi -lrt 
+/usr/bin/ld: невозможно найти -liphlpapi
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+make[1]: *** [CMakeFiles/cmTC_1196a.dir/build.make:99: cmTC_1196a] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_1196a/fast] Ошибка 2
+
+
+
+Determining if the function setsockopt exists in the socket failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f0ca7/fast && /usr/bin/make  -f CMakeFiles/cmTC_f0ca7.dir/build.make CMakeFiles/cmTC_f0ca7.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_f0ca7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=setsockopt -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_f0ca7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f0ca7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0ca7.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=setsockopt -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -rdynamic CMakeFiles/cmTC_f0ca7.dir/CheckFunctionExists.c.o -o cmTC_f0ca7  -lsocket -lrt 
+/usr/bin/ld: невозможно найти -lsocket
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+make[1]: *** [CMakeFiles/cmTC_f0ca7.dir/build.make:99: cmTC_f0ca7] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_f0ca7/fast] Ошибка 2
+
+
+
+Determining if the function inet_addr exists in the xnet failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_aacdf/fast && /usr/bin/make  -f CMakeFiles/cmTC_aacdf.dir/build.make CMakeFiles/cmTC_aacdf.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_aacdf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=inet_addr -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_aacdf.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aacdf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aacdf.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=inet_addr -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -rdynamic CMakeFiles/cmTC_aacdf.dir/CheckFunctionExists.c.o -o cmTC_aacdf  -lxnet -lrt -lpthread -lm 
+/usr/bin/ld: невозможно найти -lxnet
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+make[1]: *** [CMakeFiles/cmTC_aacdf.dir/build.make:99: cmTC_aacdf] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_aacdf/fast] Ошибка 2
+
+
+
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_caf08/fast && /usr/bin/make  -f CMakeFiles/cmTC_caf08.dir/build.make CMakeFiles/cmTC_caf08.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_caf08.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_caf08.dir/CheckIncludeFile.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: фатальная ошибка: windows.h: Нет такого файла или каталога
+    1 | #include <windows.h>
+      |          ^~~~~~~~~~~
+компиляция прервана.
+make[1]: *** [CMakeFiles/cmTC_caf08.dir/build.make:78: CMakeFiles/cmTC_caf08.dir/CheckIncludeFile.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_caf08/fast] Ошибка 2
+
+
+
+Determining if the include file direct.h exists failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_52689/fast && /usr/bin/make  -f CMakeFiles/cmTC_52689.dir/build.make CMakeFiles/cmTC_52689.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_52689.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_52689.dir/CheckIncludeFile.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: фатальная ошибка: direct.h: Нет такого файла или каталога
+    1 | #include <direct.h>
+      |          ^~~~~~~~~~
+компиляция прервана.
+make[1]: *** [CMakeFiles/cmTC_52689.dir/build.make:78: CMakeFiles/cmTC_52689.dir/CheckIncludeFile.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_52689/fast] Ошибка 2
+
+
+
+Determining if the include file winsock2.h exists failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_03179/fast && /usr/bin/make  -f CMakeFiles/cmTC_03179.dir/build.make CMakeFiles/cmTC_03179.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_03179.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_03179.dir/CheckIncludeFile.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: фатальная ошибка: winsock2.h: Нет такого файла или каталога
+    1 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+компиляция прервана.
+make[1]: *** [CMakeFiles/cmTC_03179.dir/build.make:78: CMakeFiles/cmTC_03179.dir/CheckIncludeFile.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_03179/fast] Ошибка 2
+
+
+
+Determining if the include file ws2tcpip.h exists failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_629bb/fast && /usr/bin/make  -f CMakeFiles/cmTC_629bb.dir/build.make CMakeFiles/cmTC_629bb.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_629bb.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_629bb.dir/CheckIncludeFile.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: фатальная ошибка: ws2tcpip.h: Нет такого файла или каталога
+    1 | #include <ws2tcpip.h>
+      |          ^~~~~~~~~~~~
+компиляция прервана.
+make[1]: *** [CMakeFiles/cmTC_629bb.dir/build.make:78: CMakeFiles/cmTC_629bb.dir/CheckIncludeFile.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_629bb/fast] Ошибка 2
+
+
+
+Determining if the include file wspiapi.h exists failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d61c5/fast && /usr/bin/make  -f CMakeFiles/cmTC_d61c5.dir/build.make CMakeFiles/cmTC_d61c5.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_d61c5.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_d61c5.dir/CheckIncludeFile.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: фатальная ошибка: wspiapi.h: Нет такого файла или каталога
+    1 | #include <wspiapi.h>
+      |          ^~~~~~~~~~~
+компиляция прервана.
+make[1]: *** [CMakeFiles/cmTC_d61c5.dir/build.make:78: CMakeFiles/cmTC_d61c5.dir/CheckIncludeFile.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_d61c5/fast] Ошибка 2
+
+
+
+Determining if the include file ws2spi.h exists failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c423d/fast && /usr/bin/make  -f CMakeFiles/cmTC_c423d.dir/build.make CMakeFiles/cmTC_c423d.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_c423d.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_c423d.dir/CheckIncludeFile.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: фатальная ошибка: ws2spi.h: Нет такого файла или каталога
+    1 | #include <ws2spi.h>
+      |          ^~~~~~~~~~
+компиляция прервана.
+make[1]: *** [CMakeFiles/cmTC_c423d.dir/build.make:78: CMakeFiles/cmTC_c423d.dir/CheckIncludeFile.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_c423d/fast] Ошибка 2
+
+
+
+Determining if the include file mach-o/dyld.h exists failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_72998/fast && /usr/bin/make  -f CMakeFiles/cmTC_72998.dir/build.make CMakeFiles/cmTC_72998.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_72998.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_72998.dir/CheckIncludeFile.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: фатальная ошибка: mach-o/dyld.h: Нет такого файла или каталога
+    1 | #include <mach-o/dyld.h>
+      |          ^~~~~~~~~~~~~~~
+компиляция прервана.
+make[1]: *** [CMakeFiles/cmTC_72998.dir/build.make:78: CMakeFiles/cmTC_72998.dir/CheckIncludeFile.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_72998/fast] Ошибка 2
+
+
+
+Determining if the include file process.h exists failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3e990/fast && /usr/bin/make  -f CMakeFiles/cmTC_3e990.dir/build.make CMakeFiles/cmTC_3e990.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_3e990.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_3e990.dir/CheckIncludeFile.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: фатальная ошибка: process.h: Нет такого файла или каталога
+    1 | #include <process.h>
+      |          ^~~~~~~~~~~
+компиляция прервана.
+make[1]: *** [CMakeFiles/cmTC_3e990.dir/build.make:78: CMakeFiles/cmTC_3e990.dir/CheckIncludeFile.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_3e990/fast] Ошибка 2
+
+
+
+Determining if the include file bsp.h exists failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_111ea/fast && /usr/bin/make  -f CMakeFiles/cmTC_111ea.dir/build.make CMakeFiles/cmTC_111ea.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_111ea.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_111ea.dir/CheckIncludeFile.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: фатальная ошибка: bsp.h: Нет такого файла или каталога
+    1 | #include <bsp.h>
+      |          ^~~~~~~
+компиляция прервана.
+make[1]: *** [CMakeFiles/cmTC_111ea.dir/build.make:78: CMakeFiles/cmTC_111ea.dir/CheckIncludeFile.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_111ea/fast] Ошибка 2
+
+
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_SYS_SYSCTL_H failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0429c/fast && /usr/bin/make  -f CMakeFiles/cmTC_0429c.dir/build.make CMakeFiles/cmTC_0429c.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_0429c.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_SYS_SYSCTL_H -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_0429c.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:10: фатальная ошибка: sys/sysctl.h: Нет такого файла или каталога
+    3 | #include <sys/sysctl.h>
+      |          ^~~~~~~~~~~~~~
+компиляция прервана.
+make[1]: *** [CMakeFiles/cmTC_0429c.dir/build.make:78: CMakeFiles/cmTC_0429c.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_0429c/fast] Ошибка 2
+
+
+Source file was:
+#include <sys/types.h>
+
+#include <sys/sysctl.h>
+int main(void){ return 0; }
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_TIMEPPS_H failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bf973/fast && /usr/bin/make  -f CMakeFiles/cmTC_bf973.dir/build.make CMakeFiles/cmTC_bf973.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_bf973.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_TIMEPPS_H -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_bf973.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:10: фатальная ошибка: timepps.h: Нет такого файла или каталога
+    3 | #include <timepps.h>
+      |          ^~~~~~~~~~~
+компиляция прервана.
+make[1]: *** [CMakeFiles/cmTC_bf973.dir/build.make:78: CMakeFiles/cmTC_bf973.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_bf973/fast] Ошибка 2
+
+
+Source file was:
+#include <unistd.h>
+
+#include <timepps.h>
+int main(void){ return 0; }
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_IPHLPAPI_H failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_431d6/fast && /usr/bin/make  -f CMakeFiles/cmTC_431d6.dir/build.make CMakeFiles/cmTC_431d6.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_431d6.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_IPHLPAPI_H -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -L"/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/lib" -o CMakeFiles/cmTC_431d6.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:2:10: фатальная ошибка: iphlpapi.h: Нет такого файла или каталога
+    2 | #include <iphlpapi.h>
+      |          ^~~~~~~~~~~~
+компиляция прервана.
+make[1]: *** [CMakeFiles/cmTC_431d6.dir/build.make:78: CMakeFiles/cmTC_431d6.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_431d6/fast] Ошибка 2
+
+
+Source file was:
+
+#include <iphlpapi.h>
+int main(void){ return 0; }
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_STRNCPY_S failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4aceb/fast && /usr/bin/make  -f CMakeFiles/cmTC_4aceb.dir/build.make CMakeFiles/cmTC_4aceb.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_4aceb.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_STRNCPY_S -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_4aceb.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «size_t»
+    4 | size_t xx;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:1:1: замечание: «size_t» is defined in header «<stddef.h>»; did you forget to «#include <stddef.h>»?
+  +++ |+#include <stddef.h>
+    1 | 
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:1: ошибка: неизвестное имя типа «size_t»
+    6 | size_t xxxx;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:1: замечание: «size_t» is defined in header «<stddef.h>»; did you forget to «#include <stddef.h>»?
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:2: ошибка: неизвестное имя типа «errno_t»
+    8 |  errno_t rv = strncpy_s(&x, xx, &xxx, xxxx);
+      |  ^~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:15: предупреждение: неявная декларация функции «strncpy_s» [-Wimplicit-function-declaration]
+    8 |  errno_t rv = strncpy_s(&x, xx, &xxx, xxxx);
+      |               ^~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:10: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    8 |  errno_t rv = strncpy_s(&x, xx, &xxx, xxxx);
+      |          ^~
+make[1]: *** [CMakeFiles/cmTC_4aceb.dir/build.make:78: CMakeFiles/cmTC_4aceb.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_4aceb/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+char x;
+size_t xx;
+char xxx;
+size_t xxxx;
+
+ errno_t rv = strncpy_s(&x, xx, &xxx, xxxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_STRNCPY failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_25e13/fast && /usr/bin/make  -f CMakeFiles/cmTC_25e13.dir/build.make CMakeFiles/cmTC_25e13.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_25e13.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_STRNCPY -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_25e13.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «size_t»
+    5 | size_t xxx;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:1:1: замечание: «size_t» is defined in header «<stddef.h>»; did you forget to «#include <stddef.h>»?
+  +++ |+#include <stddef.h>
+    1 | 
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:13: предупреждение: неявная декларация функции «strncpy» [-Wimplicit-function-declaration]
+    7 |  char* rv = strncpy(&x, &xx, xxx);
+      |             ^~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:1:1: замечание: include «<string.h>» or provide a declaration of «strncpy»
+  +++ |+#include <string.h>
+    1 | 
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:13: предупреждение: несовместимая неявная декларация внутренней функции «strncpy» [-Wbuiltin-declaration-mismatch]
+    7 |  char* rv = strncpy(&x, &xx, xxx);
+      |             ^~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:13: замечание: включите «<string.h>» или предоставьте декларацию для «strncpy»
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:8: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    7 |  char* rv = strncpy(&x, &xx, xxx);
+      |        ^~
+make[1]: *** [CMakeFiles/cmTC_25e13.dir/build.make:78: CMakeFiles/cmTC_25e13.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_25e13/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+char x;
+char xx;
+size_t xxx;
+
+ char* rv = strncpy(&x, &xx, xxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_VSNPRINTF failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9569d/fast && /usr/bin/make  -f CMakeFiles/cmTC_9569d.dir/build.make CMakeFiles/cmTC_9569d.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_9569d.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_VSNPRINTF -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_9569d.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «size_t»
+    4 | size_t xx;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:1:1: замечание: «size_t» is defined in header «<stddef.h>»; did you forget to «#include <stddef.h>»?
+  +++ |+#include <stddef.h>
+    1 | 
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:1: ошибка: неизвестное имя типа «va_list»
+    6 | va_list xxxx;
+      | ^~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:1:1: замечание: «va_list» is defined in header «<stdarg.h>»; did you forget to «#include <stdarg.h>»?
+  +++ |+#include <stdarg.h>
+    1 | 
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:11: предупреждение: неявная декларация функции «vsnprintf» [-Wimplicit-function-declaration]
+    8 |  int rv = vsnprintf(&x, xx, &xxx, xxxx);
+      |           ^~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:1:1: замечание: include «<stdio.h>» or provide a declaration of «vsnprintf»
+  +++ |+#include <stdio.h>
+    1 | 
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:25: предупреждение: «vsnprintf» argument 2 type is «int» where «long unsigned int» is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+    8 |  int rv = vsnprintf(&x, xx, &xxx, xxxx);
+      |                         ^~
+<built-in>: замечание: built-in «vsnprintf» declared here
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:35: предупреждение: при передаче аргумента 4 «vsnprintf» целое преобразуется в указатель без приведения типа [-Wint-conversion]
+    8 |  int rv = vsnprintf(&x, xx, &xxx, xxxx);
+      |                                   ^~~~
+      |                                   |
+      |                                   int
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:35: замечание: ожидался тип «__va_list_tag *», но аргумент имеет тип «int»
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    8 |  int rv = vsnprintf(&x, xx, &xxx, xxxx);
+      |      ^~
+make[1]: *** [CMakeFiles/cmTC_9569d.dir/build.make:78: CMakeFiles/cmTC_9569d.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_9569d/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+char x;
+size_t xx;
+char xxx;
+va_list xxxx;
+
+ int rv = vsnprintf(&x, xx, &xxx, xxxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_VSNPRINTF_S failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_22d37/fast && /usr/bin/make  -f CMakeFiles/cmTC_22d37.dir/build.make CMakeFiles/cmTC_22d37.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_22d37.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_VSNPRINTF_S -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_22d37.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «size_t»
+    4 | size_t xx;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:1:1: замечание: «size_t» is defined in header «<stddef.h>»; did you forget to «#include <stddef.h>»?
+  +++ |+#include <stddef.h>
+    1 | 
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «size_t»
+    5 | size_t xxx;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: замечание: «size_t» is defined in header «<stddef.h>»; did you forget to «#include <stddef.h>»?
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:2: ошибка: неизвестное имя типа «va_list»
+    7 |  va_list xxxxx;
+      |  ^~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:1:1: замечание: «va_list» is defined in header «<stdarg.h>»; did you forget to «#include <stdarg.h>»?
+  +++ |+#include <stdarg.h>
+    1 | 
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:11: предупреждение: неявная декларация функции «vsnprintf_s» [-Wimplicit-function-declaration]
+    9 |  int rv = vsnprintf_s(&x, xx, xxx, &xxxx, xxxxx);
+      |           ^~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    9 |  int rv = vsnprintf_s(&x, xx, xxx, &xxxx, xxxxx);
+      |      ^~
+make[1]: *** [CMakeFiles/cmTC_22d37.dir/build.make:78: CMakeFiles/cmTC_22d37.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_22d37/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+char x;
+size_t xx;
+size_t xxx;
+char xxxx;
+ va_list xxxxx;
+
+ int rv = vsnprintf_s(&x, xx, xxx, &xxxx, xxxxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_CLOSESOCKET failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0da75/fast && /usr/bin/make  -f CMakeFiles/cmTC_0da75.dir/build.make CMakeFiles/cmTC_0da75.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_0da75.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_CLOSESOCKET -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_0da75.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «SOCKET»
+    3 | SOCKET x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:11: предупреждение: неявная декларация функции «closesocket» [-Wimplicit-function-declaration]
+    5 |  int rv = closesocket(x);
+      |           ^~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    5 |  int rv = closesocket(x);
+      |      ^~
+make[1]: *** [CMakeFiles/cmTC_0da75.dir/build.make:78: CMakeFiles/cmTC_0da75.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_0da75/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+SOCKET x;
+
+ int rv = closesocket(x);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_PTHREAD_SIGMASK failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9139b/fast && /usr/bin/make  -f CMakeFiles/cmTC_9139b.dir/build.make CMakeFiles/cmTC_9139b.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_9139b.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_PTHREAD_SIGMASK -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_9139b.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «sigset_t»
+    5 | sigset_t xx;
+      | ^~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:1: ошибка: неизвестное имя типа «sigset_t»
+    6 | sigset_t xxx;
+      | ^~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:11: предупреждение: неявная декларация функции «pthread_sigmask» [-Wimplicit-function-declaration]
+    8 |  int rv = pthread_sigmask(x, &xx, &xxx);
+      |           ^~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    8 |  int rv = pthread_sigmask(x, &xx, &xxx);
+      |      ^~
+make[1]: *** [CMakeFiles/cmTC_9139b.dir/build.make:78: CMakeFiles/cmTC_9139b.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_9139b/fast] Ошибка 2
+
+
+Source file was:
+#include <signal.h>
+
+int main(void) {
+int x;
+sigset_t xx;
+sigset_t xxx;
+
+ int rv = pthread_sigmask(x, &xx, &xxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_PTHREAD_KILL failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1d872/fast && /usr/bin/make  -f CMakeFiles/cmTC_1d872.dir/build.make CMakeFiles/cmTC_1d872.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_1d872.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_PTHREAD_KILL -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_1d872.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «pthread_t»
+    4 | pthread_t x;
+      | ^~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:11: предупреждение: неявная декларация функции «pthread_kill» [-Wimplicit-function-declaration]
+    7 |  int rv = pthread_kill(x, xx);
+      |           ^~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    7 |  int rv = pthread_kill(x, xx);
+      |      ^~
+make[1]: *** [CMakeFiles/cmTC_1d872.dir/build.make:78: CMakeFiles/cmTC_1d872.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_1d872/fast] Ошибка 2
+
+
+Source file was:
+#include <signal.h>
+
+int main(void) {
+pthread_t x;
+int xx;
+
+ int rv = pthread_kill(x, xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_PTHREAD_BARRIER failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0c0e0/fast && /usr/bin/make  -f CMakeFiles/cmTC_0c0e0.dir/build.make CMakeFiles/cmTC_0c0e0.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_0c0e0.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_PTHREAD_BARRIER -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_0c0e0.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «pthread_barrier_t»; имелось в виду «pthread_attr_t»?
+    4 | pthread_barrier_t x;
+      | ^~~~~~~~~~~~~~~~~
+      | pthread_attr_t
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «pthread_barrierattr_t»; имелось в виду «pthread_mutexattr_t»?
+    5 | pthread_barrierattr_t xx;
+      | ^~~~~~~~~~~~~~~~~~~~~
+      | pthread_mutexattr_t
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:11: предупреждение: неявная декларация функции «pthread_barrier_init»; имелось в виду «pthread_attr_init»? [-Wimplicit-function-declaration]
+    8 |  int rv = pthread_barrier_init(&x, &xx, xxx);
+      |           ^~~~~~~~~~~~~~~~~~~~
+      |           pthread_attr_init
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    8 |  int rv = pthread_barrier_init(&x, &xx, xxx);
+      |      ^~
+make[1]: *** [CMakeFiles/cmTC_0c0e0.dir/build.make:78: CMakeFiles/cmTC_0c0e0.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_0c0e0/fast] Ошибка 2
+
+
+Source file was:
+#include <pthread.h>
+
+int main(void) {
+pthread_barrier_t x;
+pthread_barrierattr_t xx;
+unsigned xxx;
+
+ int rv = pthread_barrier_init(&x, &xx, xxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_PTHREAD_RWLOCK failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_25d5c/fast && /usr/bin/make  -f CMakeFiles/cmTC_25d5c.dir/build.make CMakeFiles/cmTC_25d5c.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_25d5c.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_PTHREAD_RWLOCK -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_25d5c.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «pthread_rwlock_t»; имелось в виду «pthread_cond_t»?
+    4 | pthread_rwlock_t x;
+      | ^~~~~~~~~~~~~~~~
+      | pthread_cond_t
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «pthread_rwlockattr_t»; имелось в виду «pthread_condattr_t»?
+    5 | pthread_rwlockattr_t xx;
+      | ^~~~~~~~~~~~~~~~~~~~
+      | pthread_condattr_t
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:11: предупреждение: неявная декларация функции «pthread_rwlock_init»; имелось в виду «pthread_cond_init»? [-Wimplicit-function-declaration]
+    7 |  int rv = pthread_rwlock_init(&x, &xx);
+      |           ^~~~~~~~~~~~~~~~~~~
+      |           pthread_cond_init
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    7 |  int rv = pthread_rwlock_init(&x, &xx);
+      |      ^~
+make[1]: *** [CMakeFiles/cmTC_25d5c.dir/build.make:78: CMakeFiles/cmTC_25d5c.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_25d5c/fast] Ошибка 2
+
+
+Source file was:
+#include <pthread.h>
+
+int main(void) {
+pthread_rwlock_t x;
+pthread_rwlockattr_t xx;
+
+ int rv = pthread_rwlock_init(&x, &xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_PTHREAD_CONDATTR_SETCLOCK failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_090cc/fast && /usr/bin/make  -f CMakeFiles/cmTC_090cc.dir/build.make CMakeFiles/cmTC_090cc.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_090cc.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_PTHREAD_CONDATTR_SETCLOCK -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_090cc.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «clockid_t»; имелось в виду «clock_t»?
+    5 | clockid_t xx;
+      | ^~~~~~~~~
+      | clock_t
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:11: предупреждение: неявная декларация функции «pthread_condattr_setclock»; имелось в виду «pthread_condattr_destroy»? [-Wimplicit-function-declaration]
+    7 |  int rv = pthread_condattr_setclock(&x, xx);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |           pthread_condattr_destroy
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    7 |  int rv = pthread_condattr_setclock(&x, xx);
+      |      ^~
+make[1]: *** [CMakeFiles/cmTC_090cc.dir/build.make:78: CMakeFiles/cmTC_090cc.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_090cc/fast] Ошибка 2
+
+
+Source file was:
+#include <pthread.h>
+
+int main(void) {
+pthread_condattr_t x;
+clockid_t xx;
+
+ int rv = pthread_condattr_setclock(&x, xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_SIGACTION failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4983d/fast && /usr/bin/make  -f CMakeFiles/cmTC_4983d.dir/build.make CMakeFiles/cmTC_4983d.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_4983d.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_SIGACTION -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_4983d.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:18: ошибка: размер «xx» в памяти неизвестен
+    5 | struct sigaction xx;
+      |                  ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:18: ошибка: размер «xxx» в памяти неизвестен
+    6 | struct sigaction xxx;
+      |                  ^~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:11: предупреждение: неявная декларация функции «sigaction» [-Wimplicit-function-declaration]
+    8 |  int rv = sigaction(x, &xx, &xxx);
+      |           ^~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    8 |  int rv = sigaction(x, &xx, &xxx);
+      |      ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:18: предупреждение: неиспользуемая переменная «xxx» [-Wunused-variable]
+    6 | struct sigaction xxx;
+      |                  ^~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:18: предупреждение: неиспользуемая переменная «xx» [-Wunused-variable]
+    5 | struct sigaction xx;
+      |                  ^~
+make[1]: *** [CMakeFiles/cmTC_4983d.dir/build.make:78: CMakeFiles/cmTC_4983d.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_4983d/fast] Ошибка 2
+
+
+Source file was:
+#include <signal.h>
+
+int main(void) {
+int x;
+struct sigaction xx;
+struct sigaction xxx;
+
+ int rv = sigaction(x, &xx, &xxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS__GETCWD failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_46d45/fast && /usr/bin/make  -f CMakeFiles/cmTC_46d45.dir/build.make CMakeFiles/cmTC_46d45.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_46d45.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS__GETCWD -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_46d45.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:13: предупреждение: неявная декларация функции «_getcwd» [-Wimplicit-function-declaration]
+    6 |  char* rv = _getcwd(&x, xx);
+      |             ^~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:13: предупреждение: initialization of «char *» from «int» makes pointer from integer without a cast [-Wint-conversion]
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:8: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    6 |  char* rv = _getcwd(&x, xx);
+      |        ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:13: предупреждение: «xx» is used uninitialized [-Wuninitialized]
+    6 |  char* rv = _getcwd(&x, xx);
+      |             ^~~~~~~~~~~~~~~
+Linking C executable cmTC_46d45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46d45.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -std=c99 -Wall -Wshadow -pedantic -rdynamic CMakeFiles/cmTC_46d45.dir/src.c.o -o cmTC_46d45  -lrt -lpthread -lm -lnsl -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_46d45.dir/src.c.o: в функции «main»:
+src.c:(.text+0x29): неопределённая ссылка на «_getcwd»
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+make[1]: *** [CMakeFiles/cmTC_46d45.dir/build.make:99: cmTC_46d45] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_46d45/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+char x;
+int xx;
+
+ char* rv = _getcwd(&x, xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_FORMAT_MESSAGE failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9d4a1/fast && /usr/bin/make  -f CMakeFiles/cmTC_9d4a1.dir/build.make CMakeFiles/cmTC_9d4a1.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_9d4a1.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_FORMAT_MESSAGE -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_9d4a1.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «DWORD»
+    3 | DWORD x;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «DWORD»
+    5 | DWORD xxx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:1: ошибка: неизвестное имя типа «DWORD»
+    6 | DWORD xxxx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:1: ошибка: неизвестное имя типа «DWORD»
+    8 | DWORD xxxxxx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:1: ошибка: неизвестное имя типа «va_list»
+    9 | va_list xxxxxxx;
+      | ^~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:1:1: замечание: «va_list» is defined in header «<stdarg.h>»; did you forget to «#include <stdarg.h>»?
+  +++ |+#include <stdarg.h>
+    1 | 
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:11:2: ошибка: неизвестное имя типа «DWORD»
+   11 |  DWORD rv = FormatMessage(x, &xx, xxx, xxxx, &xxxxx, xxxxxx, &xxxxxxx);
+      |  ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:11:13: предупреждение: неявная декларация функции «FormatMessage» [-Wimplicit-function-declaration]
+   11 |  DWORD rv = FormatMessage(x, &xx, xxx, xxxx, &xxxxx, xxxxxx, &xxxxxxx);
+      |             ^~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:11:8: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+   11 |  DWORD rv = FormatMessage(x, &xx, xxx, xxxx, &xxxxx, xxxxxx, &xxxxxxx);
+      |        ^~
+make[1]: *** [CMakeFiles/cmTC_9d4a1.dir/build.make:78: CMakeFiles/cmTC_9d4a1.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_9d4a1/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+DWORD x;
+char xx;
+DWORD xxx;
+DWORD xxxx;
+char xxxxx;
+DWORD xxxxxx;
+va_list xxxxxxx;
+
+ DWORD rv = FormatMessage(x, &xx, xxx, xxxx, &xxxxx, xxxxxx, &xxxxxxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_CLOCK_NANOSLEEP failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a1d71/fast && /usr/bin/make  -f CMakeFiles/cmTC_a1d71.dir/build.make CMakeFiles/cmTC_a1d71.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_a1d71.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_CLOCK_NANOSLEEP -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_a1d71.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «clockid_t»; имелось в виду «clock_t»?
+    4 | clockid_t x;
+      | ^~~~~~~~~
+      | clock_t
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:17: ошибка: размер «xxx» в памяти неизвестен
+    6 | struct timespec xxx;
+      |                 ^~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:17: ошибка: размер «xxxx» в памяти неизвестен
+    7 | struct timespec xxxx;
+      |                 ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:11: предупреждение: неявная декларация функции «clock_nanosleep» [-Wimplicit-function-declaration]
+    9 |  int rv = clock_nanosleep(x, xx, &xxx, &xxxx);
+      |           ^~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    9 |  int rv = clock_nanosleep(x, xx, &xxx, &xxxx);
+      |      ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:17: предупреждение: неиспользуемая переменная «xxxx» [-Wunused-variable]
+    7 | struct timespec xxxx;
+      |                 ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:17: предупреждение: неиспользуемая переменная «xxx» [-Wunused-variable]
+    6 | struct timespec xxx;
+      |                 ^~~
+make[1]: *** [CMakeFiles/cmTC_a1d71.dir/build.make:78: CMakeFiles/cmTC_a1d71.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_a1d71/fast] Ошибка 2
+
+
+Source file was:
+#include <time.h>
+
+int main(void) {
+clockid_t x;
+int xx;
+struct timespec xxx;
+struct timespec xxxx;
+
+ int rv = clock_nanosleep(x, xx, &xxx, &xxxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_NANOSLEEP failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fbe2a/fast && /usr/bin/make  -f CMakeFiles/cmTC_fbe2a.dir/build.make CMakeFiles/cmTC_fbe2a.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_fbe2a.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_NANOSLEEP -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_fbe2a.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:17: ошибка: размер «x» в памяти неизвестен
+    4 | struct timespec x;
+      |                 ^
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:17: ошибка: размер «xx» в памяти неизвестен
+    5 | struct timespec xx;
+      |                 ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:11: предупреждение: неявная декларация функции «nanosleep» [-Wimplicit-function-declaration]
+    7 |  int rv = nanosleep(&x, &xx);
+      |           ^~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    7 |  int rv = nanosleep(&x, &xx);
+      |      ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:17: предупреждение: неиспользуемая переменная «xx» [-Wunused-variable]
+    5 | struct timespec xx;
+      |                 ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:17: предупреждение: неиспользуемая переменная «x» [-Wunused-variable]
+    4 | struct timespec x;
+      |                 ^
+make[1]: *** [CMakeFiles/cmTC_fbe2a.dir/build.make:78: CMakeFiles/cmTC_fbe2a.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_fbe2a/fast] Ошибка 2
+
+
+Source file was:
+#include <time.h>
+
+int main(void) {
+struct timespec x;
+struct timespec xx;
+
+ int rv = nanosleep(&x, &xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_CLOCK_GETTIME failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5a99d/fast && /usr/bin/make  -f CMakeFiles/cmTC_5a99d.dir/build.make CMakeFiles/cmTC_5a99d.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_5a99d.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_CLOCK_GETTIME -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_5a99d.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «clockid_t»; имелось в виду «clock_t»?
+    4 | clockid_t x;
+      | ^~~~~~~~~
+      | clock_t
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:17: ошибка: размер «xx» в памяти неизвестен
+    5 | struct timespec xx;
+      |                 ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:11: предупреждение: неявная декларация функции «clock_gettime» [-Wimplicit-function-declaration]
+    7 |  int rv = clock_gettime(x, &xx);
+      |           ^~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    7 |  int rv = clock_gettime(x, &xx);
+      |      ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:17: предупреждение: неиспользуемая переменная «xx» [-Wunused-variable]
+    5 | struct timespec xx;
+      |                 ^~
+make[1]: *** [CMakeFiles/cmTC_5a99d.dir/build.make:78: CMakeFiles/cmTC_5a99d.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_5a99d/fast] Ошибка 2
+
+
+Source file was:
+#include <time.h>
+
+int main(void) {
+clockid_t x;
+struct timespec xx;
+
+ int rv = clock_gettime(x, &xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_GET_SYSTEM_TIME_AS_FILE_TIME failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3648b/fast && /usr/bin/make  -f CMakeFiles/cmTC_3648b.dir/build.make CMakeFiles/cmTC_3648b.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_3648b.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_GET_SYSTEM_TIME_AS_FILE_TIME -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_3648b.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «FILETIME»
+    3 | FILETIME x;
+      | ^~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: предупреждение: неявная декларация функции «GetSystemTimeAsFileTime» [-Wimplicit-function-declaration]
+    5 | GetSystemTimeAsFileTime(&x);
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_3648b.dir/build.make:78: CMakeFiles/cmTC_3648b.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_3648b/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+FILETIME x;
+
+GetSystemTimeAsFileTime(&x);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_GET_LAST_ERROR failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7c823/fast && /usr/bin/make  -f CMakeFiles/cmTC_7c823.dir/build.make CMakeFiles/cmTC_7c823.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_7c823.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_GET_LAST_ERROR -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_7c823.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:2: ошибка: неизвестное имя типа «DWORD»
+    4 |  DWORD rv = GetLastError();
+      |  ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:13: предупреждение: неявная декларация функции «GetLastError» [-Wimplicit-function-declaration]
+    4 |  DWORD rv = GetLastError();
+      |             ^~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:8: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    4 |  DWORD rv = GetLastError();
+      |        ^~
+make[1]: *** [CMakeFiles/cmTC_7c823.dir/build.make:78: CMakeFiles/cmTC_7c823.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_7c823/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+
+ DWORD rv = GetLastError();
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_CREATE_WAITABLE_TIMER failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c0740/fast && /usr/bin/make  -f CMakeFiles/cmTC_c0740.dir/build.make CMakeFiles/cmTC_c0740.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_c0740.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_CREATE_WAITABLE_TIMER -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_c0740.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «SECURITY_ATTRIBUTES»
+    3 | SECURITY_ATTRIBUTES x;
+      | ^~~~~~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «BOOL»
+    4 | BOOL xx;
+      | ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:2: ошибка: неизвестное имя типа «HANDLE»
+    7 |  HANDLE rv = CreateWaitableTimer(&x, xx, &xxx);
+      |  ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:14: предупреждение: неявная декларация функции «CreateWaitableTimer» [-Wimplicit-function-declaration]
+    7 |  HANDLE rv = CreateWaitableTimer(&x, xx, &xxx);
+      |              ^~~~~~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:9: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    7 |  HANDLE rv = CreateWaitableTimer(&x, xx, &xxx);
+      |         ^~
+make[1]: *** [CMakeFiles/cmTC_c0740.dir/build.make:78: CMakeFiles/cmTC_c0740.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_c0740/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+SECURITY_ATTRIBUTES x;
+BOOL xx;
+char xxx;
+
+ HANDLE rv = CreateWaitableTimer(&x, xx, &xxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_GET_MODULE_FILE_NAME failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_248f9/fast && /usr/bin/make  -f CMakeFiles/cmTC_248f9.dir/build.make CMakeFiles/cmTC_248f9.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_248f9.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_GET_MODULE_FILE_NAME -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_248f9.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «HMODULE»
+    3 | HMODULE x;
+      | ^~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «LPSTR»
+    4 | LPSTR xx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «DWORD»
+    5 | DWORD xxx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:2: ошибка: неизвестное имя типа «DWORD»
+    7 |  DWORD rv = GetModuleFileName(x, xx, xxx);
+      |  ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:13: предупреждение: неявная декларация функции «GetModuleFileName» [-Wimplicit-function-declaration]
+    7 |  DWORD rv = GetModuleFileName(x, xx, xxx);
+      |             ^~~~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:8: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    7 |  DWORD rv = GetModuleFileName(x, xx, xxx);
+      |        ^~
+make[1]: *** [CMakeFiles/cmTC_248f9.dir/build.make:78: CMakeFiles/cmTC_248f9.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_248f9/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+HMODULE x;
+LPSTR xx;
+DWORD xxx;
+
+ DWORD rv = GetModuleFileName(x, xx, xxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_LOAD_LIBRARY failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5833a/fast && /usr/bin/make  -f CMakeFiles/cmTC_5833a.dir/build.make CMakeFiles/cmTC_5833a.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_5833a.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_LOAD_LIBRARY -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_5833a.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:2: ошибка: неизвестное имя типа «HMODULE»
+    5 |  HMODULE rv = LoadLibrary(&x);
+      |  ^~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:15: предупреждение: неявная декларация функции «LoadLibrary» [-Wimplicit-function-declaration]
+    5 |  HMODULE rv = LoadLibrary(&x);
+      |               ^~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:10: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    5 |  HMODULE rv = LoadLibrary(&x);
+      |          ^~
+make[1]: *** [CMakeFiles/cmTC_5833a.dir/build.make:78: CMakeFiles/cmTC_5833a.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_5833a/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+char x;
+
+ HMODULE rv = LoadLibrary(&x);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_TLS_ALLOC failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3eb06/fast && /usr/bin/make  -f CMakeFiles/cmTC_3eb06.dir/build.make CMakeFiles/cmTC_3eb06.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_3eb06.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_TLS_ALLOC -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_3eb06.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:2: ошибка: неизвестное имя типа «DWORD»
+    4 |  DWORD rv = TlsAlloc();
+      |  ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:13: предупреждение: неявная декларация функции «TlsAlloc» [-Wimplicit-function-declaration]
+    4 |  DWORD rv = TlsAlloc();
+      |             ^~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:8: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    4 |  DWORD rv = TlsAlloc();
+      |        ^~
+make[1]: *** [CMakeFiles/cmTC_3eb06.dir/build.make:78: CMakeFiles/cmTC_3eb06.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_3eb06/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+
+ DWORD rv = TlsAlloc();
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_GETTIMEOFDAY failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7da81/fast && /usr/bin/make  -f CMakeFiles/cmTC_7da81.dir/build.make CMakeFiles/cmTC_7da81.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_7da81.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_GETTIMEOFDAY -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_7da81.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:17: ошибка: размер «xx» в памяти неизвестен
+    5 | struct timezone xx;
+      |                 ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    7 |  int rv = gettimeofday(&x, &xx);
+      |      ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:17: предупреждение: неиспользуемая переменная «xx» [-Wunused-variable]
+    5 | struct timezone xx;
+      |                 ^~
+make[1]: *** [CMakeFiles/cmTC_7da81.dir/build.make:78: CMakeFiles/cmTC_7da81.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_7da81/fast] Ошибка 2
+
+
+Source file was:
+#include <sys/time.h>
+
+int main(void) {
+struct timeval x;
+struct timezone xx;
+
+ int rv = gettimeofday(&x, &xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_GETADDRINFO failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_95fb7/fast && /usr/bin/make  -f CMakeFiles/cmTC_95fb7.dir/build.make CMakeFiles/cmTC_95fb7.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_95fb7.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_GETADDRINFO -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_95fb7.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:17: ошибка: размер «xxx» в памяти неизвестен
+    8 | struct addrinfo xxx;
+      |                 ^~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:11:11: предупреждение: неявная декларация функции «getaddrinfo» [-Wimplicit-function-declaration]
+   11 |  int rv = getaddrinfo(&x, &xx, &xxx, &xxxx);
+      |           ^~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:11:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+   11 |  int rv = getaddrinfo(&x, &xx, &xxx, &xxxx);
+      |      ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:17: предупреждение: неиспользуемая переменная «xxx» [-Wunused-variable]
+    8 | struct addrinfo xxx;
+      |                 ^~~
+make[1]: *** [CMakeFiles/cmTC_95fb7.dir/build.make:78: CMakeFiles/cmTC_95fb7.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_95fb7/fast] Ошибка 2
+
+
+Source file was:
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main(void) {
+char x;
+char xx;
+struct addrinfo xxx;
+struct addrinfo* xxxx;
+
+ int rv = getaddrinfo(&x, &xx, &xxx, &xxxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_STATFS64_DARWIN_LINUX failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cbeb8/fast && /usr/bin/make  -f CMakeFiles/cmTC_cbeb8.dir/build.make CMakeFiles/cmTC_cbeb8.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_cbeb8.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_STATFS64_DARWIN_LINUX -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_cbeb8.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:17: ошибка: размер «xx» в памяти неизвестен
+    7 | struct statfs64 xx;
+      |                 ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:11: предупреждение: неявная декларация функции «statfs64»; имелось в виду «statfs»? [-Wimplicit-function-declaration]
+    9 |  int rv = statfs64(&x, &xx);
+      |           ^~~~~~~~
+      |           statfs
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    9 |  int rv = statfs64(&x, &xx);
+      |      ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:17: предупреждение: неиспользуемая переменная «xx» [-Wunused-variable]
+    7 | struct statfs64 xx;
+      |                 ^~
+make[1]: *** [CMakeFiles/cmTC_cbeb8.dir/build.make:78: CMakeFiles/cmTC_cbeb8.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_cbeb8/fast] Ошибка 2
+
+
+Source file was:
+#include <sys/param.h>
+#include <sys/mount.h>
+#include <sys/vfs.h>
+
+int main(void) {
+char x;
+struct statfs64 xx;
+
+ int rv = statfs64(&x, &xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_CREATE_DIRECTORY failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f6639/fast && /usr/bin/make  -f CMakeFiles/cmTC_f6639.dir/build.make CMakeFiles/cmTC_f6639.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_f6639.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_CREATE_DIRECTORY -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_f6639.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «LPCTSTR»
+    3 | LPCTSTR x;
+      | ^~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «LPSECURITY_ATTRIBUTES»
+    4 | LPSECURITY_ATTRIBUTES xx;
+      | ^~~~~~~~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:2: ошибка: неизвестное имя типа «BOOL»
+    6 |  BOOL rv = CreateDirectory(x, xx);
+      |  ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:12: предупреждение: неявная декларация функции «CreateDirectory» [-Wimplicit-function-declaration]
+    6 |  BOOL rv = CreateDirectory(x, xx);
+      |            ^~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:7: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    6 |  BOOL rv = CreateDirectory(x, xx);
+      |       ^~
+make[1]: *** [CMakeFiles/cmTC_f6639.dir/build.make:78: CMakeFiles/cmTC_f6639.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_f6639/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+LPCTSTR x;
+LPSECURITY_ATTRIBUTES xx;
+
+ BOOL rv = CreateDirectory(x, xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_SETTIMEOFDAY failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b888e/fast && /usr/bin/make  -f CMakeFiles/cmTC_b888e.dir/build.make CMakeFiles/cmTC_b888e.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_b888e.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_SETTIMEOFDAY -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_b888e.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:17: ошибка: размер «xx» в памяти неизвестен
+    5 | struct timezone xx;
+      |                 ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:11: предупреждение: неявная декларация функции «settimeofday»; имелось в виду «gettimeofday»? [-Wimplicit-function-declaration]
+    7 |  int rv = settimeofday(&x, &xx);
+      |           ^~~~~~~~~~~~
+      |           gettimeofday
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    7 |  int rv = settimeofday(&x, &xx);
+      |      ^~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:17: предупреждение: неиспользуемая переменная «xx» [-Wunused-variable]
+    5 | struct timezone xx;
+      |                 ^~
+make[1]: *** [CMakeFiles/cmTC_b888e.dir/build.make:78: CMakeFiles/cmTC_b888e.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_b888e/fast] Ошибка 2
+
+
+Source file was:
+#include <sys/time.h>
+
+int main(void) {
+struct timeval x;
+struct timezone xx;
+
+ int rv = settimeofday(&x, &xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_WSA_STARTUP failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0a47d/fast && /usr/bin/make  -f CMakeFiles/cmTC_0a47d.dir/build.make CMakeFiles/cmTC_0a47d.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_0a47d.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_WSA_STARTUP -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_0a47d.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «WORD»
+    3 | WORD x;
+      | ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «WSADATA»
+    4 | WSADATA xx;
+      | ^~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:11: предупреждение: неявная декларация функции «WSAStartup» [-Wimplicit-function-declaration]
+    6 |  int rv = WSAStartup(x, &xx);
+      |           ^~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    6 |  int rv = WSAStartup(x, &xx);
+      |      ^~
+make[1]: *** [CMakeFiles/cmTC_0a47d.dir/build.make:78: CMakeFiles/cmTC_0a47d.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_0a47d/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+WORD x;
+WSADATA xx;
+
+ int rv = WSAStartup(x, &xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_WSA_CLEANUP failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_55393/fast && /usr/bin/make  -f CMakeFiles/cmTC_55393.dir/build.make CMakeFiles/cmTC_55393.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_55393.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_WSA_CLEANUP -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_55393.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:11: предупреждение: неявная декларация функции «WSACleanup» [-Wimplicit-function-declaration]
+    4 |  int rv = WSACleanup();
+      |           ^~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    4 |  int rv = WSACleanup();
+      |      ^~
+Linking C executable cmTC_55393
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55393.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -std=c99 -Wall -Wshadow -pedantic -rdynamic CMakeFiles/cmTC_55393.dir/src.c.o -o cmTC_55393  -lrt -lpthread -lm -lnsl -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_55393.dir/src.c.o: в функции «main»:
+src.c:(.text+0xe): неопределённая ссылка на «WSACleanup»
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+make[1]: *** [CMakeFiles/cmTC_55393.dir/build.make:99: cmTC_55393] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_55393/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+
+ int rv = WSACleanup();
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_WSA_STRING_TO_ADDRESS failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a7ff0/fast && /usr/bin/make  -f CMakeFiles/cmTC_a7ff0.dir/build.make CMakeFiles/cmTC_a7ff0.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_a7ff0.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_WSA_STRING_TO_ADDRESS -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_a7ff0.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «WSAPROTOCOL_INFO»
+    5 | WSAPROTOCOL_INFO xxx;
+      | ^~~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:1: ошибка: неизвестное имя типа «SOCKADDR»
+    6 | SOCKADDR xxxx;
+      | ^~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:11: предупреждение: неявная декларация функции «WSAStringToAddress» [-Wimplicit-function-declaration]
+    9 |  int rv = WSAStringToAddress(&x, xx, &xxx, &xxxx, &xxxxx);
+      |           ^~~~~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    9 |  int rv = WSAStringToAddress(&x, xx, &xxx, &xxxx, &xxxxx);
+      |      ^~
+make[1]: *** [CMakeFiles/cmTC_a7ff0.dir/build.make:78: CMakeFiles/cmTC_a7ff0.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_a7ff0/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+char x;
+int xx;
+WSAPROTOCOL_INFO xxx;
+SOCKADDR xxxx;
+int xxxxx;
+
+ int rv = WSAStringToAddress(&x, xx, &xxx, &xxxx, &xxxxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_WSA_IOCTL failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_95464/fast && /usr/bin/make  -f CMakeFiles/cmTC_95464.dir/build.make CMakeFiles/cmTC_95464.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_95464.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_WSA_IOCTL -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_95464.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «SOCKET»
+    3 | SOCKET x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «DWORD»
+    4 | DWORD xx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:1: ошибка: неизвестное имя типа «DWORD»
+    6 | DWORD xxxx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:1: ошибка: неизвестное имя типа «DWORD»
+    8 | DWORD xxxxxx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:1: ошибка: неизвестное имя типа «LPDWORD»
+    9 | LPDWORD xxxxxxx;
+      | ^~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:10:1: ошибка: неизвестное имя типа «LPWSAOVERLAPPED»
+   10 | LPWSAOVERLAPPED xxxxxxxx;
+      | ^~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:11:1: ошибка: неизвестное имя типа «LPWSAOVERLAPPED_COMPLETION_ROUTINE»
+   11 | LPWSAOVERLAPPED_COMPLETION_ROUTINE xxxxxxxxx;
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:13:11: предупреждение: неявная декларация функции «WSAIoctl» [-Wimplicit-function-declaration]
+   13 |  int rv = WSAIoctl(x, xx, &xxx, xxxx, &xxxxx, xxxxxx, xxxxxxx, xxxxxxxx, xxxxxxxxx);
+      |           ^~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:13:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+   13 |  int rv = WSAIoctl(x, xx, &xxx, xxxx, &xxxxx, xxxxxx, xxxxxxx, xxxxxxxx, xxxxxxxxx);
+      |      ^~
+make[1]: *** [CMakeFiles/cmTC_95464.dir/build.make:78: CMakeFiles/cmTC_95464.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_95464/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+SOCKET x;
+DWORD xx;
+char xxx;
+DWORD xxxx;
+char xxxxx;
+DWORD xxxxxx;
+LPDWORD xxxxxxx;
+LPWSAOVERLAPPED xxxxxxxx;
+LPWSAOVERLAPPED_COMPLETION_ROUTINE xxxxxxxxx;
+
+ int rv = WSAIoctl(x, xx, &xxx, xxxx, &xxxxx, xxxxxx, xxxxxxx, xxxxxxxx, xxxxxxxxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_GNU_STRERROR_R failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5ddf0/fast && /usr/bin/make  -f CMakeFiles/cmTC_5ddf0.dir/build.make CMakeFiles/cmTC_5ddf0.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_5ddf0.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_GNU_STRERROR_R -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_5ddf0.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «size_t»
+    5 | size_t xxx;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:1:1: замечание: «size_t» is defined in header «<stddef.h>»; did you forget to «#include <stddef.h>»?
+  +++ |+#include <stddef.h>
+    1 | 
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:13: предупреждение: неявная декларация функции «strerror_r» [-Wimplicit-function-declaration]
+    7 |  char* rv = strerror_r(x, &xx, xxx);
+      |             ^~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:13: предупреждение: initialization of «char *» from «int» makes pointer from integer without a cast [-Wint-conversion]
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:8: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    7 |  char* rv = strerror_r(x, &xx, xxx);
+      |        ^~
+make[1]: *** [CMakeFiles/cmTC_5ddf0.dir/build.make:78: CMakeFiles/cmTC_5ddf0.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_5ddf0/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+int x;
+char xx;
+size_t xxx;
+
+ char* rv = strerror_r(x, &xx, xxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_POSIX_STRERROR_R failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0bbce/fast && /usr/bin/make  -f CMakeFiles/cmTC_0bbce.dir/build.make CMakeFiles/cmTC_0bbce.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_0bbce.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_POSIX_STRERROR_R -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_0bbce.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «size_t»
+    5 | size_t xxx;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:1:1: замечание: «size_t» is defined in header «<stddef.h>»; did you forget to «#include <stddef.h>»?
+  +++ |+#include <stddef.h>
+    1 | 
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:11: предупреждение: неявная декларация функции «strerror_r» [-Wimplicit-function-declaration]
+    7 |  int rv = strerror_r(x, &xx, xxx);
+      |           ^~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:6: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    7 |  int rv = strerror_r(x, &xx, xxx);
+      |      ^~
+make[1]: *** [CMakeFiles/cmTC_0bbce.dir/build.make:78: CMakeFiles/cmTC_0bbce.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_0bbce/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+int x;
+char xx;
+size_t xxx;
+
+ int rv = strerror_r(x, &xx, xxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_CREATE_FILE failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_150e0/fast && /usr/bin/make  -f CMakeFiles/cmTC_150e0.dir/build.make CMakeFiles/cmTC_150e0.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_150e0.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_CREATE_FILE -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_150e0.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «LPCSTR»
+    3 | LPCSTR x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «DWORD»
+    4 | DWORD xx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «DWORD»
+    5 | DWORD xxx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:1: ошибка: неизвестное имя типа «SECURITY_ATTRIBUTES»
+    6 | SECURITY_ATTRIBUTES xxxx;
+      | ^~~~~~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:1: ошибка: неизвестное имя типа «DWORD»
+    7 | DWORD xxxxx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:1: ошибка: неизвестное имя типа «DWORD»
+    8 | DWORD xxxxxx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:1: ошибка: неизвестное имя типа «HANDLE»
+    9 | HANDLE xxxxxxx;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:11:2: ошибка: неизвестное имя типа «HANDLE»
+   11 |  HANDLE rv = CreateFile(x, xx, xxx, &xxxx, xxxxx, xxxxxx, xxxxxxx);
+      |  ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:11:14: предупреждение: неявная декларация функции «CreateFile» [-Wimplicit-function-declaration]
+   11 |  HANDLE rv = CreateFile(x, xx, xxx, &xxxx, xxxxx, xxxxxx, xxxxxxx);
+      |              ^~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:11:9: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+   11 |  HANDLE rv = CreateFile(x, xx, xxx, &xxxx, xxxxx, xxxxxx, xxxxxxx);
+      |         ^~
+make[1]: *** [CMakeFiles/cmTC_150e0.dir/build.make:78: CMakeFiles/cmTC_150e0.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_150e0/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+LPCSTR x;
+DWORD xx;
+DWORD xxx;
+SECURITY_ATTRIBUTES xxxx;
+DWORD xxxxx;
+DWORD xxxxxx;
+HANDLE xxxxxxx;
+
+ HANDLE rv = CreateFile(x, xx, xxx, &xxxx, xxxxx, xxxxxx, xxxxxxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_READ_FILE failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c6614/fast && /usr/bin/make  -f CMakeFiles/cmTC_c6614.dir/build.make CMakeFiles/cmTC_c6614.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_c6614.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_READ_FILE -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_c6614.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «HANDLE»
+    3 | HANDLE x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «LPVOID»
+    4 | LPVOID xx;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «DWORD»
+    5 | DWORD xxx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:1: ошибка: неизвестное имя типа «DWORD»
+    6 | DWORD xxxx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:1: ошибка: неизвестное имя типа «OVERLAPPED»
+    7 | OVERLAPPED xxxxx;
+      | ^~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:2: ошибка: неизвестное имя типа «BOOL»
+    9 |  BOOL rv = ReadFile(x, xx, xxx, &xxxx, &xxxxx);
+      |  ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:12: предупреждение: неявная декларация функции «ReadFile» [-Wimplicit-function-declaration]
+    9 |  BOOL rv = ReadFile(x, xx, xxx, &xxxx, &xxxxx);
+      |            ^~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:7: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    9 |  BOOL rv = ReadFile(x, xx, xxx, &xxxx, &xxxxx);
+      |       ^~
+make[1]: *** [CMakeFiles/cmTC_c6614.dir/build.make:78: CMakeFiles/cmTC_c6614.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_c6614/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+HANDLE x;
+LPVOID xx;
+DWORD xxx;
+DWORD xxxx;
+OVERLAPPED xxxxx;
+
+ BOOL rv = ReadFile(x, xx, xxx, &xxxx, &xxxxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_WRITE_FILE failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_05e3b/fast && /usr/bin/make  -f CMakeFiles/cmTC_05e3b.dir/build.make CMakeFiles/cmTC_05e3b.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_05e3b.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_WRITE_FILE -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_05e3b.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «HANDLE»
+    3 | HANDLE x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «LPCVOID»
+    4 | LPCVOID xx;
+      | ^~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «DWORD»
+    5 | DWORD xxx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:1: ошибка: неизвестное имя типа «DWORD»
+    6 | DWORD xxxx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:1: ошибка: неизвестное имя типа «OVERLAPPED»
+    7 | OVERLAPPED xxxxx;
+      | ^~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:2: ошибка: неизвестное имя типа «BOOL»
+    9 |  BOOL rv = WriteFile(x, xx, xxx, &xxxx, &xxxxx);
+      |  ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:12: предупреждение: неявная декларация функции «WriteFile» [-Wimplicit-function-declaration]
+    9 |  BOOL rv = WriteFile(x, xx, xxx, &xxxx, &xxxxx);
+      |            ^~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:9:7: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    9 |  BOOL rv = WriteFile(x, xx, xxx, &xxxx, &xxxxx);
+      |       ^~
+make[1]: *** [CMakeFiles/cmTC_05e3b.dir/build.make:78: CMakeFiles/cmTC_05e3b.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_05e3b/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+HANDLE x;
+LPCVOID xx;
+DWORD xxx;
+DWORD xxxx;
+OVERLAPPED xxxxx;
+
+ BOOL rv = WriteFile(x, xx, xxx, &xxxx, &xxxxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_GET_OVERLAPPED_RESULT failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5d007/fast && /usr/bin/make  -f CMakeFiles/cmTC_5d007.dir/build.make CMakeFiles/cmTC_5d007.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_5d007.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_GET_OVERLAPPED_RESULT -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_5d007.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «HANDLE»
+    3 | HANDLE x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «OVERLAPPED»
+    4 | OVERLAPPED xx;
+      | ^~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «DWORD»
+    5 | DWORD xxx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:1: ошибка: неизвестное имя типа «BOOL»
+    6 | BOOL xxxx;
+      | ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:2: ошибка: неизвестное имя типа «BOOL»
+    8 |  BOOL rv = GetOverlappedResult(x, &xx, &xxx, xxxx);
+      |  ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:12: предупреждение: неявная декларация функции «GetOverlappedResult» [-Wimplicit-function-declaration]
+    8 |  BOOL rv = GetOverlappedResult(x, &xx, &xxx, xxxx);
+      |            ^~~~~~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:7: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    8 |  BOOL rv = GetOverlappedResult(x, &xx, &xxx, xxxx);
+      |       ^~
+make[1]: *** [CMakeFiles/cmTC_5d007.dir/build.make:78: CMakeFiles/cmTC_5d007.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_5d007/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+HANDLE x;
+OVERLAPPED xx;
+DWORD xxx;
+BOOL xxxx;
+
+ BOOL rv = GetOverlappedResult(x, &xx, &xxx, xxxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_SET_COMM_STATE failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d37e4/fast && /usr/bin/make  -f CMakeFiles/cmTC_d37e4.dir/build.make CMakeFiles/cmTC_d37e4.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_d37e4.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_SET_COMM_STATE -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_d37e4.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «HANDLE»
+    3 | HANDLE x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «DCB»
+    4 | DCB xx;
+      | ^~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:2: ошибка: неизвестное имя типа «BOOL»
+    6 |  BOOL rv = SetCommState(x, &xx);
+      |  ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:12: предупреждение: неявная декларация функции «SetCommState» [-Wimplicit-function-declaration]
+    6 |  BOOL rv = SetCommState(x, &xx);
+      |            ^~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:7: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    6 |  BOOL rv = SetCommState(x, &xx);
+      |       ^~
+make[1]: *** [CMakeFiles/cmTC_d37e4.dir/build.make:78: CMakeFiles/cmTC_d37e4.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_d37e4/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+HANDLE x;
+DCB xx;
+
+ BOOL rv = SetCommState(x, &xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_GET_COMM_STATE failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_890e1/fast && /usr/bin/make  -f CMakeFiles/cmTC_890e1.dir/build.make CMakeFiles/cmTC_890e1.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_890e1.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_GET_COMM_STATE -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_890e1.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «HANDLE»
+    3 | HANDLE x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «DCB»
+    4 | DCB xx;
+      | ^~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:2: ошибка: неизвестное имя типа «BOOL»
+    6 |  BOOL rv = GetCommState(x, &xx);
+      |  ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:12: предупреждение: неявная декларация функции «GetCommState» [-Wimplicit-function-declaration]
+    6 |  BOOL rv = GetCommState(x, &xx);
+      |            ^~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:7: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    6 |  BOOL rv = GetCommState(x, &xx);
+      |       ^~
+make[1]: *** [CMakeFiles/cmTC_890e1.dir/build.make:78: CMakeFiles/cmTC_890e1.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_890e1/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+HANDLE x;
+DCB xx;
+
+ BOOL rv = GetCommState(x, &xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_SET_COMM_MASK failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2424d/fast && /usr/bin/make  -f CMakeFiles/cmTC_2424d.dir/build.make CMakeFiles/cmTC_2424d.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_2424d.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_SET_COMM_MASK -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_2424d.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «HANDLE»
+    3 | HANDLE x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «DWORD»
+    4 | DWORD xx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:2: ошибка: неизвестное имя типа «BOOL»
+    6 |  BOOL rv = SetCommMask(x, xx);
+      |  ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:12: предупреждение: неявная декларация функции «SetCommMask» [-Wimplicit-function-declaration]
+    6 |  BOOL rv = SetCommMask(x, xx);
+      |            ^~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:7: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    6 |  BOOL rv = SetCommMask(x, xx);
+      |       ^~
+make[1]: *** [CMakeFiles/cmTC_2424d.dir/build.make:78: CMakeFiles/cmTC_2424d.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_2424d/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+HANDLE x;
+DWORD xx;
+
+ BOOL rv = SetCommMask(x, xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_PURGE_COMM failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f1445/fast && /usr/bin/make  -f CMakeFiles/cmTC_f1445.dir/build.make CMakeFiles/cmTC_f1445.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_f1445.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_PURGE_COMM -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_f1445.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «HANDLE»
+    3 | HANDLE x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «DWORD»
+    4 | DWORD xx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:2: ошибка: неизвестное имя типа «BOOL»
+    6 |  BOOL rv = PurgeComm(x, xx);
+      |  ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:12: предупреждение: неявная декларация функции «PurgeComm» [-Wimplicit-function-declaration]
+    6 |  BOOL rv = PurgeComm(x, xx);
+      |            ^~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:7: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    6 |  BOOL rv = PurgeComm(x, xx);
+      |       ^~
+make[1]: *** [CMakeFiles/cmTC_f1445.dir/build.make:78: CMakeFiles/cmTC_f1445.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_f1445/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+HANDLE x;
+DWORD xx;
+
+ BOOL rv = PurgeComm(x, xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_WAIT_COMM_EVENT failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_80962/fast && /usr/bin/make  -f CMakeFiles/cmTC_80962.dir/build.make CMakeFiles/cmTC_80962.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_80962.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_WAIT_COMM_EVENT -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_80962.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «HANDLE»
+    3 | HANDLE x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «DWORD»
+    4 | DWORD xx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «OVERLAPPED»
+    5 | OVERLAPPED xxx;
+      | ^~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:2: ошибка: неизвестное имя типа «BOOL»
+    7 |  BOOL rv = WaitCommEvent(x, &xx, &xxx);
+      |  ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:12: предупреждение: неявная декларация функции «WaitCommEvent» [-Wimplicit-function-declaration]
+    7 |  BOOL rv = WaitCommEvent(x, &xx, &xxx);
+      |            ^~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:7: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    7 |  BOOL rv = WaitCommEvent(x, &xx, &xxx);
+      |       ^~
+make[1]: *** [CMakeFiles/cmTC_80962.dir/build.make:78: CMakeFiles/cmTC_80962.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_80962/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+HANDLE x;
+DWORD xx;
+OVERLAPPED xxx;
+
+ BOOL rv = WaitCommEvent(x, &xx, &xxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_SET_COMM_BREAK failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6867c/fast && /usr/bin/make  -f CMakeFiles/cmTC_6867c.dir/build.make CMakeFiles/cmTC_6867c.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_6867c.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_SET_COMM_BREAK -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_6867c.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «HANDLE»
+    3 | HANDLE x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:2: ошибка: неизвестное имя типа «BOOL»
+    5 |  BOOL rv = SetCommBreak(x);
+      |  ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:12: предупреждение: неявная декларация функции «SetCommBreak» [-Wimplicit-function-declaration]
+    5 |  BOOL rv = SetCommBreak(x);
+      |            ^~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:7: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    5 |  BOOL rv = SetCommBreak(x);
+      |       ^~
+make[1]: *** [CMakeFiles/cmTC_6867c.dir/build.make:78: CMakeFiles/cmTC_6867c.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_6867c/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+HANDLE x;
+
+ BOOL rv = SetCommBreak(x);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_CLEAR_COMM_BREAK failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_81d47/fast && /usr/bin/make  -f CMakeFiles/cmTC_81d47.dir/build.make CMakeFiles/cmTC_81d47.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_81d47.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_CLEAR_COMM_BREAK -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_81d47.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «HANDLE»
+    3 | HANDLE x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:2: ошибка: неизвестное имя типа «BOOL»
+    5 |  BOOL rv = ClearCommBreak(x);
+      |  ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:12: предупреждение: неявная декларация функции «ClearCommBreak» [-Wimplicit-function-declaration]
+    5 |  BOOL rv = ClearCommBreak(x);
+      |            ^~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:7: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    5 |  BOOL rv = ClearCommBreak(x);
+      |       ^~
+make[1]: *** [CMakeFiles/cmTC_81d47.dir/build.make:78: CMakeFiles/cmTC_81d47.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_81d47/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+HANDLE x;
+
+ BOOL rv = ClearCommBreak(x);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_CLEAR_COMM_ERROR failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_90ff4/fast && /usr/bin/make  -f CMakeFiles/cmTC_90ff4.dir/build.make CMakeFiles/cmTC_90ff4.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_90ff4.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_CLEAR_COMM_ERROR -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_90ff4.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «HANDLE»
+    3 | HANDLE x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «DWORD»
+    4 | DWORD xx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «COMSTAT»
+    5 | COMSTAT xxx;
+      | ^~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:2: ошибка: неизвестное имя типа «BOOL»
+    7 |  BOOL rv = ClearCommError(x, &xx, &xxx);
+      |  ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:12: предупреждение: неявная декларация функции «ClearCommError» [-Wimplicit-function-declaration]
+    7 |  BOOL rv = ClearCommError(x, &xx, &xxx);
+      |            ^~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:7:7: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    7 |  BOOL rv = ClearCommError(x, &xx, &xxx);
+      |       ^~
+make[1]: *** [CMakeFiles/cmTC_90ff4.dir/build.make:78: CMakeFiles/cmTC_90ff4.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_90ff4/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+HANDLE x;
+DWORD xx;
+COMSTAT xxx;
+
+ BOOL rv = ClearCommError(x, &xx, &xxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_WAIT_FOR_SINGLE_OBJECT failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6457c/fast && /usr/bin/make  -f CMakeFiles/cmTC_6457c.dir/build.make CMakeFiles/cmTC_6457c.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_6457c.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_WAIT_FOR_SINGLE_OBJECT -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_6457c.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «HANDLE»
+    3 | HANDLE x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «DWORD»
+    4 | DWORD xx;
+      | ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:2: ошибка: неизвестное имя типа «DWORD»
+    6 |  DWORD rv = WaitForSingleObject(x, xx);
+      |  ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:13: предупреждение: неявная декларация функции «WaitForSingleObject» [-Wimplicit-function-declaration]
+    6 |  DWORD rv = WaitForSingleObject(x, xx);
+      |             ^~~~~~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:8: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    6 |  DWORD rv = WaitForSingleObject(x, xx);
+      |        ^~
+make[1]: *** [CMakeFiles/cmTC_6457c.dir/build.make:78: CMakeFiles/cmTC_6457c.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_6457c/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+HANDLE x;
+DWORD xx;
+
+ DWORD rv = WaitForSingleObject(x, xx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_CREATE_EVENT failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2bd93/fast && /usr/bin/make  -f CMakeFiles/cmTC_2bd93.dir/build.make CMakeFiles/cmTC_2bd93.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_2bd93.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_CREATE_EVENT -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_2bd93.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «SECURITY_ATTRIBUTES»
+    3 | SECURITY_ATTRIBUTES x;
+      | ^~~~~~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:4:1: ошибка: неизвестное имя типа «BOOL»
+    4 | BOOL xx;
+      | ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:1: ошибка: неизвестное имя типа «BOOL»
+    5 | BOOL xxx;
+      | ^~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:6:1: ошибка: неизвестное имя типа «LPCSTR»
+    6 | LPCSTR xxxx;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:2: ошибка: неизвестное имя типа «HANDLE»
+    8 |  HANDLE rv = CreateEvent(&x, xx, xxx, xxxx);
+      |  ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:14: предупреждение: неявная декларация функции «CreateEvent» [-Wimplicit-function-declaration]
+    8 |  HANDLE rv = CreateEvent(&x, xx, xxx, xxxx);
+      |              ^~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:8:9: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    8 |  HANDLE rv = CreateEvent(&x, xx, xxx, xxxx);
+      |         ^~
+make[1]: *** [CMakeFiles/cmTC_2bd93.dir/build.make:78: CMakeFiles/cmTC_2bd93.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_2bd93/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+SECURITY_ATTRIBUTES x;
+BOOL xx;
+BOOL xxx;
+LPCSTR xxxx;
+
+ HANDLE rv = CreateEvent(&x, xx, xxx, xxxx);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_FORK failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_da36a/fast && /usr/bin/make  -f CMakeFiles/cmTC_da36a.dir/build.make CMakeFiles/cmTC_da36a.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_da36a.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_FORK -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_da36a.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:2: ошибка: неизвестное имя типа «pid_t»
+    5 |  pid_t rv = fork();
+      |  ^~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:8: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    5 |  pid_t rv = fork();
+      |        ^~
+make[1]: *** [CMakeFiles/cmTC_da36a.dir/build.make:78: CMakeFiles/cmTC_da36a.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_da36a/fast] Ошибка 2
+
+
+Source file was:
+#include <unistd.h>
+
+int main(void) {
+
+ pid_t rv = fork();
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS__ALLOCA failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5aba2/fast && /usr/bin/make  -f CMakeFiles/cmTC_5aba2.dir/build.make CMakeFiles/cmTC_5aba2.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_5aba2.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS__ALLOCA -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_5aba2.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:3:1: ошибка: неизвестное имя типа «size_t»
+    3 | size_t x;
+      | ^~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:1:1: замечание: «size_t» is defined in header «<stddef.h>»; did you forget to «#include <stddef.h>»?
+  +++ |+#include <stddef.h>
+    1 | 
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:13: предупреждение: неявная декларация функции «_alloca» [-Wimplicit-function-declaration]
+    5 |  void* rv = _alloca(x);
+      |             ^~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:13: предупреждение: initialization of «void *» from «int» makes pointer from integer without a cast [-Wint-conversion]
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:5:8: предупреждение: неиспользуемая переменная «rv» [-Wunused-variable]
+    5 |  void* rv = _alloca(x);
+      |        ^~
+make[1]: *** [CMakeFiles/cmTC_5aba2.dir/build.make:78: CMakeFiles/cmTC_5aba2.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_5aba2/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) {
+size_t x;
+
+ void* rv = _alloca(x);
+return 0;
+}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_CRITICAL_SECTION failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_49be6/fast && /usr/bin/make  -f CMakeFiles/cmTC_49be6.dir/build.make CMakeFiles/cmTC_49be6.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_49be6.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_CRITICAL_SECTION -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_49be6.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:2:18: ошибка: неизвестное имя типа «CRITICAL_SECTION»
+    2 | int main(void) { CRITICAL_SECTION x; return 0;}
+      |                  ^~~~~~~~~~~~~~~~
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:2:35: предупреждение: неиспользуемая переменная «x» [-Wunused-variable]
+    2 | int main(void) { CRITICAL_SECTION x; return 0;}
+      |                                   ^
+make[1]: *** [CMakeFiles/cmTC_49be6.dir/build.make:78: CMakeFiles/cmTC_49be6.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_49be6/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) { CRITICAL_SECTION x; return 0;}
+
+Performing C SOURCE FILE Test JANUS_SYS_HAS_STD_TR1_SHARED_PTR failed with the following output:
+Change Dir: /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3195e/fast && /usr/bin/make  -f CMakeFiles/cmTC_3195e.dir/build.make CMakeFiles/cmTC_3195e.dir/build
+make[1]: вход в каталог «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_3195e.dir/src.c.o
+/usr/bin/cc -DJANUS_SYS_HAS_STD_TR1_SHARED_PTR -I/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/external/libraries/x86-64bit-linux-glibc-gcc111/include -fPIC -std=c99 -Wall -Wshadow -pedantic -o CMakeFiles/cmTC_3195e.dir/src.c.o -c /home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c: В функции «main»:
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:2:22: ошибка: expected expression before «:» token
+    2 | int main(void) { std::tr1::shared_ptr<int> x; return 0;}
+      |                      ^
+/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp/src.c:2:18: предупреждение: метка «std» определена, но не используется [-Wunused-label]
+    2 | int main(void) { std::tr1::shared_ptr<int> x; return 0;}
+      |                  ^~~
+make[1]: *** [CMakeFiles/cmTC_3195e.dir/build.make:78: CMakeFiles/cmTC_3195e.dir/src.c.o] Ошибка 1
+make[1]: выход из каталога «/home/nick/Prog/Modem_console/JANUS/janus-c-3.0.5/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_3195e/fast] Ошибка 2
+
+
+Source file was:
+
+int main(void) { std::tr1::shared_ptr<int> x; return 0;}
+

@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -O3 -DNDEBUG -rdynamic CMakeFiles/test_wake_up_tone.dir/tests/c/wakeup_tones.c.o -o test_wake_up_tone  libjanus.a -lrt -lpthread -lm -lnsl -ldl -lasound -lFLAC -lpulse-simple -lpulse -lfftw3 

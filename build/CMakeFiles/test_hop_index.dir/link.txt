@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -O3 -DNDEBUG -rdynamic CMakeFiles/test_hop_index.dir/tests/c/hop_index.c.o -o test_hop_index  libjanus.a -lrt -lpthread -lm -lnsl -ldl -lasound -lFLAC -lpulse-simple -lpulse -lfftw3 

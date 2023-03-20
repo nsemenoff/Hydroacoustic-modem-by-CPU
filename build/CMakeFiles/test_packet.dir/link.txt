@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -O3 -DNDEBUG -rdynamic CMakeFiles/test_packet.dir/tests/c/packet.c.o -o test_packet  libjanus.a -lrt -lpthread -lm -lnsl -ldl -lasound -lFLAC -lpulse-simple -lpulse -lfftw3 
